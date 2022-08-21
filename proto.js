@@ -1,1 +1,0 @@
-let arr = ["sgsfgefr", "afafdsdg"]
