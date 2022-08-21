@@ -1,10 +1,12 @@
-function x() {
-  var a = 7
+function z() {
+  let a = 23
   function y() {
-    console.log(a)
+    const a = 31
+    function x() {
+      console.log(a)
+    }
+    x()
   }
-  return y
+  y()
 }
-var z = x()
-console.log(z)
 z()
